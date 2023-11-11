@@ -15,13 +15,7 @@ Testing: XCTest, XCUITest, integration test, performance test <br>
 
 ## 🖇️ Colaborando
 
-Veja o arquivo [CONTRIBUTING.md]() para detalhes.
-
-## 📌 Versão
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.0     | :white_check_mark: |
+Veja o arquivo [CONTRIBUTING.md](https://github.com/AIWASS23/receitas/blob/main/CONTRIBUTING.md) para detalhes.
 
 ## ✒️ Autor
 
@@ -29,7 +23,7 @@ Veja o arquivo [CONTRIBUTING.md]() para detalhes.
 
 ## 📄 Licença
 
-Este projeto está sob a licença (GNU General Public License v3.0) - veja o arquivo [LICENSE.md]() para detalhes.
+Este projeto está sob a licença (GNU General Public License v3.0) - veja o arquivo [LICENSE.md](https://github.com/AIWASS23/receitas/blob/main/LICENSE) para detalhes.
 
 ## 🎁 Expressões de gratidão
 
