@@ -1,0 +1,55 @@
+{
+  "configurations" : [
+    {
+      "id" : "A17356BD-E61B-476F-B4EF-4B3565F41908",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "preferredScreenCaptureFormat" : "screenshot",
+    "testTimeoutsEnabled" : true,
+    "uiTestingScreenshotsLifetime" : "keepNever",
+    "userAttachmentLifetime" : "keepNever"
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "selectedTests" : [
+        "DessertCategoryUITestsLaunchTests\/testLaunch()",
+        "TestMealListView\/testLaunchApp()",
+        "TestMealListView\/testMealList_NavigateTo_MealDetails()",
+        "TestPerformance\/testCalculateWithCPUMetric()",
+        "TestPerformance\/testCalculateWithMemoryMetric()",
+        "TestPerformance\/testLaunchPerformance()"
+      ],
+      "target" : {
+        "containerPath" : "container:Receitas.xcodeproj",
+        "identifier" : "1474B6C02AFAEDEC007B5B68",
+        "name" : "ReceitasUITests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "selectedTests" : [
+        "TestFetchDataGeneric\/testFetchDataGeneric_DataNotFound_ReturnFailure()",
+        "TestFetchDataGeneric\/testFetchDataGeneric_InvalidUrl_ReturnFailure()",
+        "TestMealDetails\/testMealDetails_DataNotFound_ReturnFailure()",
+        "TestMealDetails\/testMealDetails_DecodedFailed_ReturnFailure()",
+        "TestMealDetails\/testMealDetails_ValidData_ReturnSuccess()",
+        "TestMealListViewModel\/testTestMealListViewModelFailure()",
+        "TestMealListViewModel\/testTestMealListViewModelSuccess()",
+        "TestMealModel\/testMealModel_DecodedFailed_ReturnFailure()",
+        "TestMealModel\/testMealModel_ValidData_ReturnSuccess()"
+      ],
+      "target" : {
+        "containerPath" : "container:Receitas.xcodeproj",
+        "identifier" : "147E4EFC2AF9A5FF00E0A907",
+        "name" : "ReceitasUnitTests"
+      }
+    }
+  ],
+  "version" : 1
+}
